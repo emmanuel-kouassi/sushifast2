@@ -1,20 +1,15 @@
-// src/pages/MenuList.jsx
-import React from 'react';
-import MenuCard from '../components/MenuCard';
+import menus from '../data/boxes.json';
+import MenuCard from './Menucard';
 
-function MenuList({ menus }) {
+export default function MenuList({filterFn = () => true}){
+  const filtered = menus.filter(filterFn);
   return (
-    <div>
-      <h2 className="mb-4">Tous les Menus Proposés</h2>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
-        {menus.map(menu => (
-          <div key={menu.id} className="col">
-            <MenuCard menu={menu} />
-          </div>
-        ))}
-      </div>
+    <div className="row g-3">
+      {filtered.map(menu => (
+        <div className="col-12 col-md-6 col-lg-4" key={menu.id}>
+          <MenuCard menu={menu} />
+        </div>
+      ))}
     </div>
   );
 }
-
-export default MenuList;
