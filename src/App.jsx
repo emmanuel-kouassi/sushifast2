@@ -5,7 +5,7 @@ import Footer from './Components/Footer.jsx';
 
 // Pages
 import Home from './Pages/Home.jsx';
-import Saveurs from './Pages/Saveurs.jsx';  // Vérifiez la casse
+import Saveurs from './Pages/Saveurs.jsx';  
 import Statistiques from './Pages/Statistiques.jsx';
 
 // Components

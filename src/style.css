@@ -1,0 +1,31 @@
+body {
+    background-color: #f7f2ea;
+}
+
+
+.btn-beige {
+  background-color: #e6b98c;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  
+  color: #3a2a1a;
+  font-weight: 500;
+}
+
+
+.btn-beige:hover,
+.btn-beige:focus,
+.btn-beige:active {
+  background-color: #d9a86c;
+  color: #3a2a1a;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}

@@ -9,7 +9,7 @@ export default function MenuCard({menu}){
         <p className="mb-1">Pièces: {menu.pieces}</p>
         <p className="mb-1">Prix: {menu.prix ? menu.prix.toFixed(2) + '€' : '—'}</p>
         <div className="mt-auto">
-          <Link to={`/menu/${menu.id}`} className="btn btn-primary w-100">Voir</Link>
+          <Link to={`/menu/${menu.id}`} className="btn btn-beige w-100">Voir</Link>
         </div>
       </div>
     </div>
