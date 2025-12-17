@@ -20,18 +20,22 @@ Languages utilisés
 
 ## Structure du projet
 
+
+```text
+src/
 ├── Components/
-│ ├── Header.jsx
-│ ├── Footer.jsx
-│ ├── MenuList.jsx
-│ ├── MenuCard.jsx
-│ └── Filters.jsx
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── MenuList.jsx
+│   ├── MenuCard.jsx
+│   └── Filters.jsx
 ├── Pages/
-│ ├── Home.jsx
-│ ├── saveur.jsx
-│ └── Statistique.jsx
+│   ├── Home.jsx
+│   ├── saveur.jsx
+│   └── Statistique.jsx
 ├── data/
-│ └── boxes.json
+│   └── boxes.json
 ├── App.jsx
 └── main.jsx
+
 
