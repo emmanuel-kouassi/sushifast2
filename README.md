@@ -36,6 +36,9 @@ src/
 ├── data/
 │   └── boxes.json
 ├── App.jsx
+├── Style.css
+├── App.css
+├── Index.css
 └── main.jsx
 
 
