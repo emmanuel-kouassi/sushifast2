@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import menus from '../Data/boxes.json';
-import MenuList from '../Components/MenuList.jsx';
+import MenuList from '../Components/Menulist.jsx';
 import Filters from '../Components/Filters.jsx';
 
 export default function Home() {
