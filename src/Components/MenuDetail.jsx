@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import menus from '../data/boxes.json';
+import menus from '../Data/boxes.json';
 
 export default function MenuDetail(){
   const { id } = useParams();
