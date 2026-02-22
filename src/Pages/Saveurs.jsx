@@ -1,4 +1,4 @@
-import menus from '../data/boxes.json';
+import menus from '../Data/boxes.json';
 
 export default function Saveurs(){
   return (
