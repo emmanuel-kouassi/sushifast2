@@ -9,7 +9,7 @@ import Saveurs from './Pages/Saveurs.jsx';
 import Statistiques from './Pages/Statistiques.jsx';
 
 // Components
-import MenuDetail from './Components/Menudetail.jsx';
+import MenuDetail from './Components/MenuDetail.jsx';
 export default function App() {
   return (
     <Router>
