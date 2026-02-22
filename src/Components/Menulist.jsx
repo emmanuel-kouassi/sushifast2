@@ -1,4 +1,4 @@
-import MenuCard from './MenuCard.jsx';
+import MenuCard from './Menucard.jsx';
 
 export default function MenuList({ menus }) {
   return (
