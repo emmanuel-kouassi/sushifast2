@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import menus from '../data/boxes.json';
+import menus from '../Data/boxes.json';
 import MenuList from '../Components/MenuList.jsx';
 import Filters from '../Components/Filters.jsx';
 
